@@ -14,4 +14,5 @@ public interface NewsApi {
 
     @GET("everything")
     Call<NewsResponse> getEverything(@Query("q") String country, @Query("pageSize") int pageSize);
+
 }
